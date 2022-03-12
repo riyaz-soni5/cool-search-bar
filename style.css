@@ -19,27 +19,12 @@ div{
     background-color: rgba(255, 255, 255, 0.171);
     width: 50px;
     height: 60px;
-    animation: out 2s ease;
+    transition: width 1s ease;
 }
 
 #search:hover{
     width: 400px;
     animation: in 3s ease;
-}
-
-
-@keyframes in{
-    0%{
-        width: 50px;
-    }
-    100%{
-        width: 400px;
-    }
-}
-
-@keyframes out{
-    0%{width: 400px;}
-    100%{width:50px;}
 }
 
 div img{
